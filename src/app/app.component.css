@@ -63,3 +63,6 @@
 .dropdown a:hover {background-color: #ddd}
 
 .show {display:block;}
+.paginate{
+	    margin-left: 26%;
+}

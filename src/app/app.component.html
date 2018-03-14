@@ -39,11 +39,13 @@ Search:<input class="mainsearch" [(ngModel)]="query" placeholder="Search..." />
 </div>
 </div>
 </div>
+<div class="paginate">
 <pagination-controls (pageChange)="page = $event" id="1"
                       maxSize="5"
                       directionLinks="true"
                       autoHide="true">
 </pagination-controls>
+</div>
 
 
 
